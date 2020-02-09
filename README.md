@@ -1,13 +1,13 @@
 # design3_final
 crane_x7を音声認識によって操作するパッケージです。
 
-・unite.py
+・unite.py 
 持ってきてほしい物体の色を有線イヤホンについているマイクに話しかけると、その色のついた物体をcrane_x7が持ってきてくれます。
 以下はデモ動画のリンクです。
 
 https://youtu.be/_FOWcYkRxac
 
-・voice.py
+・voice.py 
 音声認識のみでcrane_x7を操作することを目的としたもので、動作はunite.pyと同じです。
 
 用意するもの  
