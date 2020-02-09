@@ -11,7 +11,8 @@ https://youtu.be/_FOWcYkRxac
 音声認識のみでcrane_x7を操作することを目的としたもので、動作はunite.pyと同じです。
 
 用意するもの
-・crane_x7
+
+・crane_x7 
 ・realsense D435i
 ・マイク付き有線イヤホン
 ・iPhone以外のchromeブラウザ
