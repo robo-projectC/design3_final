@@ -139,39 +139,22 @@ def main():
 #    rospy.Subscriber('/Tablet/voice',SpeechRecognitionCandidates,check_msg)
         rospy.Subscriber('/color_view', String, color_callback)
 
-#        if img=="red" and voice=="red":
-#            print("==red==")
-#            catch_motion()
-#            break
-#        elif img=="blue" and voice=="blue":
-#            print("==blue==")
-#            catch_motion()
-##            return_motion()
-#            break
-#        elif img=="yellow" and voice=="yellow":
-#            print("==yellow==")
-#            catch_motion()
-#            break
-#        elif img=="unknown":
-#            print("==none==")
-#        elif joint_0>=1.6:
-#            joint_0=-2.0
-        if img=="red":
+        if img=="red" and voice=="red":
             print("==red==")
             catch_motion()
             break
-        elif img=="blue":
+        elif img=="blue" and voice=="blue":
             print("==blue==")
             catch_motion()
             break
-        elif img=="yellow":
+        elif img=="yellow" and voice=="yellow":
             print("==yellow==")
             catch_motion()
             break
         elif img=="unknown":
             print("==none==")
-            if joint_0>1.5:
-                joint_0=-2.0
+        elif joint_0>=1.5:
+            joint_0=-2.0
 
 
     print("==return==")
