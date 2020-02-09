@@ -97,7 +97,7 @@ def main():
     arm.go()		
 #    rospy.Subscriber('/depth_length', Float32, depth_callback)
 #    rospy.Subscriber('/color_view', String, color_callback)
-#    rospy.Subscriber('/Tablet/voice',SpeechRecognitionCandidates,check_msg)
+    rospy.Subscriber('/Tablet/voice',SpeechRecognitionCandidates,check_msg)
 
 #def color_callback(color):
 #    arm = moveit_commander.MoveGroupCommander("arm")
