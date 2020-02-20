@@ -2,6 +2,6 @@
     <node pkg="design3_final" name="color_extract" type="color_check.py"/>
     <node pkg="design3_final" name="depth_estimater" type="depth_check.py"/>
 
-<!--    <node pkg="design3_final" name="crane_x7_pick_and_place_controller" type="move_3.py"/> -->
+    <node pkg="design3_final" name="crane_x7_pick_and_place_controller" type=".py"/> -->
 </launch>
 
