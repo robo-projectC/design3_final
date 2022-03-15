@@ -1,7 +1,7 @@
 # Why did I fork?
 設計製作論3のロボットアームの授業で製作したプログラムです．シミュレータをインストールしなければ使えませんが，  
 OpenCV等のプログラムは知能ロボコンの機体制御に活用できると思うのでforkします(内容は脳筋なので期待は厳禁です)．  
-シミュレータ等の環境構築や基本的な使い方は[こちら](https://ryuichiueda.github.io/manipulator_practice_b3/lesson1.html#/)を参照して下さい．
+シミュレータ等の環境構築や基本的な使い方は[こちら](https://ryuichiueda.github.io/manipulator_practice_b3/)を参照して下さい．
 
 # design3_final
 crane_x7を音声認識によって操作するパッケージです。
